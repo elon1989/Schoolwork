@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Common style, alla stora element med en gemensam style som sedan kan ändras induviduellt */
+.container {
+    display:flex;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:1rem;
+    font-size: 1.3rem;
+    padding:1rem;
+    background-color: lightgray
+}
+.btn {
+    margin: 30px;
+    display:inline-block;
+    padding:1rem 2rem;;
+    background:black;
+    color:white;
+}
+.btn:hover {
+    background:gray;
+}
+
+/* Special style, små ändrningar för alla liknande element senare för att korta ner koden */
+.btn-top {
+    background:blue;
+}
+.container-hero {
+    background:yellow;
+}

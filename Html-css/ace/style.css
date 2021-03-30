@@ -1,0 +1,82 @@
+.heart-container {
+    position: relative;
+    height:400px;
+    width: 250px;
+    border:2px solid black;
+    border-radius:0.3rem;
+    margin:50px;
+    color:red;
+    background: #FDFFE2;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.heart-container::before {
+    content:"A";
+    font-size:3rem;
+    margin-left:18px;
+}
+
+.heart-container::after {
+    transform:rotate(180deg);
+    position: absolute;
+    content:"A";
+    font-size:3rem;
+    margin-left:8px;
+    bottom:5px;
+    right:18px;
+}
+
+.heart {
+    position: relative;
+    background:red;
+    height:15px;
+    width:15px;
+    transform:rotate(45deg);
+}
+.heart::before {
+    position: absolute;
+    bottom: 0px;
+    left: -7px;
+    width: 15px;
+    height: 15px;
+    content: '';
+    border-radius: 50%;
+    background:red;
+}
+.heart::after {
+    position: absolute;
+    top: -7px;
+    left: 0px;
+    width: 15px;
+    height: 15px;
+    content: '';
+    border-radius: 50%;
+    background:red;
+}
+.one {
+    margin-top:5px;
+    margin-left:28px;
+    height:15px;
+    width:15px;
+}
+.two {
+    margin:auto;
+    margin-top:100px;
+    height:50px;
+    width:50px;
+}
+.two::before {
+    left:-25px;
+    height:50px;
+    width: 50px;
+}
+.two::after {
+    top:-25px;
+    height:50px;
+    width:50px;
+}
+.three {
+    margin-top:95px;
+    margin-left:207px;
+    transform:rotate(225deg);
+}

@@ -1,0 +1,117 @@
+.hero{
+    height: 100vh;
+}
+
+.hero-showcase{
+    position: relative;
+    height: 100%;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/f9935b31-a32a-49c4-8149-59ba62895575/1778b896-41a4-4be7-8dfb-7e8ebd9e718e/SE-en-20200824-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.hero-showcase::before{
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  box-shadow: inset 120px 100px 150px #000000, inset -120px -100px 150px #000000 ;
+}
+
+.showcase-content-top{
+    position: relative;
+}
+
+.right{
+    position: absolute;
+    right: 5px;
+    top: 40px;
+}
+
+.left{
+    position: absolute;
+    top: 40px;
+}
+
+.showcase-content-bottom{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, 0);   
+}
+.form-group {
+    height:60px;
+}
+.form-group :first-child {
+    width:50%;
+    padding: 18px 0px;
+    font-size:1.6rem;
+}
+.btn-big {
+    padding:18px 5px;
+    text-transform: uppercase;
+    font-size:1.6rem;
+    border-radius:3px;
+}
+.content-top{
+    text-align: center;
+}
+
+.content-top h3{
+    margin-bottom: 2rem;
+}
+
+.main-heading{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.logo{
+    width: 150px;
+}
+
+.container{
+    height: 100%;
+    margin: 0 50px;
+    position: relative;
+    
+}
+
+.right{
+    z-index: 10;
+}
+
+/* Utilities */
+
+.btn:hover {
+    opacity: 0.9;
+}
+.btn{
+    padding: ;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+}
+
+.btn-secondary{
+    background: none;
+    border: 1px solid var(--secondary-color);
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    border-radius: 3px;
+}
+
+.btn-primary{
+   padding: 8px 25px;
+   font-size: 0.9rem;
+   border-radius: 3px;
+}
+
+p{
+    text-align: center;
+    margin: 2rem 0;
+}

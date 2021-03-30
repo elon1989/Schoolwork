@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.box {
+    position: relative;
+    top:40px;
+    left:200px;
+    height: 100px;
+    width:100px;
+    background:red;
+    transition-property: background, border-radius;
+    transition-duration: .8s;
+}
+.box:hover {
+    background:black;
+    border-radius: 50%;
+    transform: scale(2);
+}

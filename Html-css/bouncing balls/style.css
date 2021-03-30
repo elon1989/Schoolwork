@@ -1,0 +1,117 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@keyframes bouncing {
+    0% {
+        top:0;
+        background-color: blue;
+    }
+    40% {
+        height:25px;
+        background-color: green;
+        border-radius:50% 50% 50% 50%;
+    }
+    45% {
+        top:100;
+        height:20px;
+    }
+    50% {
+        background-color: yellow;
+        height:3px;
+        width:40px;
+        top:105px;
+        border-radius:50% 50% 10% 10%;
+    }
+    55% {
+        height:20px;
+    }
+    60% {
+        top:100;
+        height:25px;
+        border-radius:50% 50% 40% 40%;
+        background-color: salmon;
+    }
+    100% {
+        border-radius:50% 50% 50% 50%;
+        top:0;
+        height:30px;
+        width:30px;
+    }
+}
+@keyframes grow {
+    0% {
+        width:30px;
+    }
+    50% {
+        width:40px;
+    }
+}
+.container {
+    position: relative;
+    height:120px;
+    width:500px;
+    top:500px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.boll {
+    z-index:3;
+    height: 30px;
+    width:30px;
+    border-radius:50% 50% 50% 50%;
+    position: absolute;
+    top:0;
+    background:red;  
+}
+.shadow, shadow:before, shadow:after {
+    position: absolute;
+    height: 5px;
+    width:30px;
+    left:0px;
+    border-radius:50% 50% 50% 50%;
+    background:rgba(0, 0, 0, 0.3);
+    top:120px;
+    animation:grow 1.2s;
+    animation-iteration-count: infinite;
+}
+.shadow:before, .shadow:after {
+    content:'';
+    left:80px;
+    height: 5px;
+    width:30px;
+    border-radius:50% 50% 50% 50%;
+    position: absolute;
+    background:rgba(0, 0, 0, 0.3);
+    animation:grow 1.2s;
+    animation-delay: .25s;
+    animation-iteration-count: infinite;
+}
+.shadow:after {
+    left:160px;
+    animation-delay: .5s;
+}
+.boll:nth-child(1) {
+    position: absolute;
+    left:0px;
+    animation:bouncing 1.2s;
+    animation-iteration-count: infinite;
+}
+.boll:nth-child(2) {
+    position: absolute;
+    left:80px;
+    animation:bouncing 1.2s;
+    animation-delay: .25s;
+    
+    animation-iteration-count: infinite;
+}
+.boll:nth-child(3) {
+    position: relative;
+    left:160px;
+    animation:bouncing 1.2s;
+    animation-delay: .5s;
+    animation-iteration-count: infinite;
+}

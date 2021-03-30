@@ -1,0 +1,131 @@
+.background {
+    width: 100%;
+    background-color:#2D46B9;
+}
+.nav {
+    background:black;
+    position: fixed;
+}
+.nav-menu {
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding:20px;
+}
+.nav-menu ul {
+    display:flex;
+}
+
+.nav-menu-right {
+    justify-content: space-around;
+
+}
+.menu-item {
+    padding:10px 20px;
+}
+.top-navigation {
+    height:80px;
+}
+.logo {
+    margin-top:20px;
+    fill:#fff;
+}
+.hero {
+    height:100vh;
+    background: url(/img/bursts.svg) no-repeat;
+    background-color:#2D46B9;
+    background-size: 165%;
+    background-position: 43% 0%;
+    justify-content: center;
+    min-height: 846px;
+    color:#1ED760;
+
+}
+.hero-container {
+    padding-top:280px;
+    height:100%;
+    justify-content: center;
+}
+.left {
+    margin-right:340px;
+}
+.right {
+    margin-left:200px;
+    margin-top:-50px;
+}
+.hero-showcase {
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+}
+.hero-showcase p {
+    margin-top:-30px;
+}
+.btn {
+    margin-top:30px;
+    color: #2940a8;
+    background-color: #1ED760;
+    line-height: 16px;
+    letter-spacing: 1.4px;
+    padding: 16px 40px 16px;
+    font-size: 16px;
+    line-height: 1;
+    border-radius: 500px;
+}
+.footer {
+    background:black;
+    height:550px;
+}
+.footer-container {
+    
+    height:80%;
+}
+.footer-top-container {
+    padding-top:50px;
+    display:flex;
+    height:450px;
+    width: 100%;
+}
+.footer-menu {
+    width:100%;
+    display:flex;
+    padding:35px;
+}
+.menu-heading {
+    margin-left:20px;
+    color:grey;
+    text-transform: uppercase;
+}
+.social-menu {
+    display:flex;
+    padding:20px;
+}
+.social-item {
+    margin-left:20px;
+    background:grey;
+    font-size:2rem;
+    width: 54px;
+    height: 54px;
+    line-height: 1.5;
+    border-radius: 500px;
+    text-align:center;
+    padding-top:5px;
+}
+.footer-bottom-container {
+    height:100px;
+    width:100%;
+    color:gray;
+    font-size: 0.7rem;
+}
+.footer-nav {
+    display:flex;
+    height:100px;
+    flex:1;
+}
+.menu-item-bottom {
+    padding:10px;
+}
+.lang {
+    align-content: flex-end;
+}

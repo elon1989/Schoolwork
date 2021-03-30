@@ -1,0 +1,55 @@
+@keyframes moveMyBox {
+    0%{
+        background:rgb(64, 216, 221);
+        top:0;
+        left:0;
+        border-radius: 0 0 0 0;
+    }
+    25%{
+        background: chartreuse;
+        top:0;
+        left:100px;
+        border-radius:50% 0 0 0;
+    }
+    50%{
+        background: coral;
+        top:100px;
+        left:100px;
+        border-radius: 50% 50% 0 0;
+    }
+    75% {
+        background:darkorchid;
+        top:100px;
+        left:0px;
+        border-radius: 50% 50% 50% 0;
+    }
+    100%{
+        background:black;
+        top:0px;
+        left:0px;
+        border-radius: 50% 50% 50% 50%;
+        transform: scale(0.2);
+    }
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.box{
+    position: relative;
+/*     top:20px;
+    left:20px; */
+    width:100px;
+    height:100px;
+    background:rgb(64, 216, 221);
+    animation-name: moveMyBox;
+    animation-duration: 3s;
+/*     animation-delay: 4s;*/
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+

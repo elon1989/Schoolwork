@@ -1,0 +1,40 @@
+
+.sizing-box {
+    top:50px;
+    height: 9px;
+    width: 9px;
+    position: relative;
+}
+.signal-bars,.signal-bars .bar { 
+    display:inline-block
+}
+.bar {
+    background-color:#01b3e3;
+    border:thin solid #0197bf;
+    position: absolute;
+}
+.signal-bars .bar {
+    width:3px;
+    margin-left:3%;
+    min-height:20%;
+    bottom:0;
+}
+.signal-bars .bar.first-bar {
+    height:33%
+}
+.signal-bars .bar.second-bar {
+    height:66%;
+    left:3px;
+}
+.signal-bars .bar.third-bar {
+    height:99%;
+    left:6px;
+}
+.good .bar {
+    background-color:#01b3e3;
+    border:thin solid #0197bf
+}
+.one-bar .bar:not(.first-bar), .two-bars .bar:not(.first-bar):not(.second-bar){
+    background-color:#d8d8d8;
+    border:thin solid #d8d8d8
+}

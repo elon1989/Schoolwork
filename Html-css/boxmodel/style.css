@@ -1,0 +1,100 @@
+* {
+    margin:0;
+    padding:0;  
+}
+body {
+    height:2600px;
+}
+.main-container {
+    top: 0px;
+    position: sticky;
+    background:green;
+    height:120px;   
+}
+.container {
+    display:flex;
+    justify-content: center;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px black solid;
+    margin:10px;
+    text-align: center;
+}
+.right-main-container {
+    right: 0px;
+    position: fixed;
+    height: 100%;
+    background:orange;
+    width: 120px;
+}
+.content {
+    margin-right:120px;
+    background:red;
+}
+.elon-main-container {
+    height: 1600px;
+    display:flex;
+    position: relative;
+}
+.elon-container {
+    display:flex;
+    margin-left:500px;
+    background:purple;
+    height:800px;
+    position: absolute;
+}
+.elon2-container {
+    background:red;
+    display:flex;
+    position: relative;
+    left:500px;
+    top:200px;
+}
+.specialbox {
+    height:200px;
+    width: 200px;
+    font-size:72px;
+}
+.e {
+    position: sticky;
+    top:700px;
+}
+.l {
+    position: sticky;
+    top:100px;
+    left:200px;
+}
+.o {
+    position: sticky;
+    top:300px;
+    left:300px;
+}
+.n {
+    position: sticky;
+    top:400px;
+    left:400px;
+}
+.ä {
+    position: sticky;
+    top:300px;
+    left:0px;
+}
+.annan-main-container {
+    width: 120px;
+    position: relative;
+}
+.annan-container {
+    position: absolute;
+    background:purple;
+    left:120px;
+}
+.box11 {
+    position: sticky;
+    top:120px;
+    width:50px;
+    height:50px;
+    margin-bottom:50px;
+    background: rgba(70, 50, 50, 0.5);
+}

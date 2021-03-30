@@ -1,0 +1,182 @@
+body {
+    font-family: SEBSansSerif,Arial,sans-serif;
+}
+
+/* Header */
+
+.main-header {
+    height:100vh;
+    flex-direction: column;
+}
+
+/* Navigation */
+
+.nav {
+    display:flex;
+    width:100%;
+    height: 6rem;
+    position: fixed;
+    background:#fff;
+}
+.nav-container {
+    display:flex;
+    height:100%;
+    width:100%;
+}
+.nav-logo {
+    flex-shrink:0;
+    min-height:96px;
+    width:96px;
+}
+.menu {
+    margin-left: 1em;
+}
+.menu a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 300;
+}
+.nav-menu {
+    display:flex;
+    flex:3;
+    align-items: center;
+}
+.nav-menu .menu-item a {
+    margin-top:10px;
+}
+.nav-menu .menu-item {
+    border-bottom:6px solid transparent;
+}
+.nav-menu .menu-item:hover {
+    border-bottom:6px solid grey;
+}
+.right-menu {
+    display:flex;
+    flex:1;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu-item {
+    font-size: 1.125rem;
+    display:flex;
+    align-items: center;
+    margin-left: .75rem;
+    margin-right: .75rem;
+    height:88px;
+}
+.btn-nav {
+    margin-top:43px;
+}
+
+/* Hero */
+
+.hero-container {
+    display:flex;
+    height:100vh;
+    width:100%;
+    background:url(/img/GettyImages-899419456-tusch.jpg);
+    background-size: cover;
+    background-position: 50%;
+    min-height: calc(100vh - 6rem);
+    color:#fff;
+}
+.content {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 75rem;
+}
+.hero-showcase {
+    height: calc(80vh - 18rem);
+    align-self: center;
+    padding: 0 2rem;
+}
+.hero-showcase h1 {
+    font-size: 4.5rem;
+    line-height: 4.75rem;
+    margin-bottom: 2.5rem;
+    margin-right:250px;
+}
+.hero-showcase p {
+    line-height: 1.33333;
+    margin-bottom: 1rem;
+    font-size: 1.4em;
+}
+
+/* Quick navigation */
+
+.quick-menu-container {
+    position: absolute;
+    align-self:flex-end;
+    height:6rem;
+    width:100%;
+    background:#1a1a1a;
+}
+.quick-menu-nav {
+    display:flex;
+    height:6rem;
+} 
+
+.quick-menu-item {
+    align-self: center;
+    padding:20px;
+    font-size:18px;
+    font-weight: 300;
+}
+.quick-menu-item a {
+    color:#fff;
+}
+.quick-menu-item a:hover {
+    text-decoration: underline;
+}
+
+.kund-service {
+    background:url(/img/kundservice.svg) no-repeat center center;
+    background-size: contain;
+    width: 57px;
+    height: 57px;
+    position: absolute;
+    bottom:20px;
+    right:15px;
+}
+.kund-service:hover {
+    width: 65px;
+    height:65px;
+    bottom:15px;
+    right:10px;
+}
+/* Utilitys */
+
+.btn {
+    margin-bottom: 2.5rem;
+    background-color: #0092e1;
+    display: inline-block;
+    line-height: 2.625em;
+    padding: 0 1em;
+    border-radius: .25em;
+    border: .0625em solid #0092e1;
+}
+.btn:hover {
+    background-color: #41b0ee;
+    border: .0625em solid #0092e1;
+}
+.btn a {
+    color:#fff;
+    font-size: 1.1em;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+/* Articles */
+
+.rents-menu {
+    display:flex;
+    margin-top:30px;
+    padding:20px;
+    height:6rem;
+    background:yellow;
+}
+.rents-menu a {
+    text-decoration: underline;
+    font-size: 1.1rem;
+}

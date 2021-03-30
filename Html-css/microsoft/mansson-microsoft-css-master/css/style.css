@@ -1,0 +1,286 @@
+
+/*Main Header */
+
+
+.main-container{
+    margin: 0 150px;
+}
+
+.main-header{
+    width: 100%;
+    height: 100%;
+}
+
+/* Header Top */
+.header-top{
+    display: flex;
+    align-items: center;
+ 
+    height: 54px;
+}
+
+.header-logo{
+   margin-right:20px;
+
+}
+
+.main-nav{
+    flex: 3;
+}
+
+.accessibility{
+    flex: 1;
+}
+
+.menu{
+    display: flex;
+}
+
+.access-menu{
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.9rem;
+    color: var(--primary-color);
+}
+
+.access-menu a{
+    color: var(--primary-color);
+}
+
+.logo{
+    width: 120px;
+}
+
+.menu-item a{
+    padding: 10px;
+    font-size: 0.9rem;
+    color: var(--primary-color);
+}
+
+
+/* Header Bottom */
+.header-bottom{
+    background: chartreuse;
+    height: 450px;
+}
+
+.header-showcase{
+    height: 100%;
+    width: 100%;
+    background-image: url('/img/banner.png');
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.showcase-content{
+    height: 100%;
+    width: 100%;
+    padding: 30px 0 0 50px;
+}
+
+.showcase-heading, .showcase-text{
+    margin-bottom: 20px;
+}
+
+/* Utilities */
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: var(--secondary-color);;
+    text-decoration: none;
+}
+/* 
+.py{
+    padding: 30px 0;
+}
+
+.px{
+    padding: 0 30px;
+}
+ */
+
+.btn-content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.btn-icon{
+   margin-left: 5px;
+ }
+
+
+
+ /* Section: Product */
+
+ .product{
+     display: flex;
+     list-style: none;
+     justify-content: space-around;
+     padding: 70px;
+ }
+
+ .item-box{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .product-item a{
+    color: var(--primary-color);
+}
+
+ .product-icon{
+     font-size: 3rem;
+     margin-bottom: 10px;
+ }
+
+ .product-title{
+    font-weight: bold;
+}
+
+.header-showcase-two{
+    height: 100%;
+    width: 100%;
+    background-image: url('/img/xbox.jpg');
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+.header-bottom-two{
+    height: 450px;
+}
+.showcase-content-two{
+    height: 100%;
+    width: 100%;
+    padding: 130px 0 0 80px;
+}
+/* Section: Sub Products */
+.sub-heading {
+    margin-top:30px;
+}
+
+.sub-products-container{
+    display: flex;
+    height:500px;
+}
+
+.sub-products-container img{
+    width: 280px;
+}
+
+.sub-products-container h2{
+    font-size: 1.1rem;
+}
+.sub-product-link{
+    color: var(--primary-color);
+}
+
+
+
+.sub-box{
+    flex: 1;
+}
+
+.sub-product-box{
+    padding: 20px;
+}
+
+.sub-products-container h2,
+.sub-products-container p {
+    margin: 10px 0;
+}
+
+.sub-box-link{
+    color: rgb(11, 105, 182);
+}
+
+.btn-double{
+    display: block;
+}
+
+/* Follow menu */
+
+.follow {
+    display:flex;
+    height:40px;
+    margin-bottom:10px;
+}
+.follow p {
+    padding-top:8px;
+}
+.follow-menu {
+    display:flex;
+    flex-direction: column;
+    margin-left:10px;
+}
+.follow-item {
+    font-size:2rem;
+}
+.follow-item i{
+    margin-left:5px;
+}
+/* Footer */
+.footer-container-top {
+    display:flex;
+    background:#f2f2f2;
+    justify-content: space-between;
+    height:300px;
+    padding-top:30px;
+}
+.nyheter-menu {
+    margin:0 150px;
+}
+
+.nyheter-item {
+    padding-top:10px;
+}
+.nyheter-item a{
+    color: rgb(100, 100, 100);
+    font-size: 0.8rem;
+}
+.nyheter-item-one a{
+    font-style:bold;
+    color:rgb(100, 100, 100);
+    font-size:1.3rem;
+}
+.footer-container-bottom {
+    display:flex;
+    height: 40px;
+    width: 100%;
+    background:#f2f2f2;
+    justify-items: space-between;
+}
+.footer-bottom-left{
+    flex:1;
+    margin-left:150px;
+    margin-top:10px;
+}
+.footer-bottom-right{
+    align-self: flex-end;
+    flex:1;
+    margin-right:150px;
+}
+.kontakt-menu {
+    display:flex;
+    margin-right:20px;
+    margin-bottom:5px;
+}
+.kontakt-item, .kontakt-item-last{
+    padding:5px;
+    width:130px;
+}
+.kontakt-item a, .kontakt-item-last a{
+    color: rgb(100, 100, 100);
+    font-size: 0.7rem;
+}
+.kontakt-item a:hover{
+    text-decoration: underline;
+}
+
+.lang a{
+    color:rgb(100, 100, 100);
+    font-size: 0.7rem;
+}

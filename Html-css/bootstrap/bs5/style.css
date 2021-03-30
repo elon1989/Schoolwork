@@ -1,0 +1,42 @@
+:root {
+    --yellow: #ffc600;
+    --black: #272727;
+}
+
+body {
+    background-image: url(/topography.svg), linear-gradient(110deg, #f93d66, #6d47d9);
+    background-size: 340px, auto;
+    min-height: calc(100vh - 100px);
+    margin:30px;
+    font-weight: 900
+}
+
+.hero {
+    height:400px;
+    margin:20px 0 20px 0;
+}
+.heroImg {
+    min-height:400px;
+    background: url(/taco.jpg);
+    background-size: cover;
+}
+
+.nav-item {
+    background:var(--yellow);
+}
+.nav-link {
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.priceBox {
+    margin-left:20px;
+    background: var(--yellow);
+    height: 190px;
+}
+.priceBox:nth-child(2) {
+    margin-top:20px;
+}
+.taco {
+    background:white;
+}
