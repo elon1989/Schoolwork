@@ -1,0 +1,62 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.School {
+  background: pink;
+  height: 750px;
+}
+
+.Classroom {
+  background: blue;
+  border: 1px solid white;
+  height: 120px;
+  width: 150px;
+  margin: 1px;
+}
+
+.SmallClassrom {
+  height: 100px;
+  width: 120px;
+  background: darkred;
+  margin: 1px;
+}
+
+.Table {
+  height: 20px;
+  width: 40px;
+  background: lightseagreen;
+  margin: 1px;
+}
+
+.SmallTable {
+  height: 15px;
+  width: 30px;
+  background: lightslategrey;
+  margin: 1px;
+}
+
+.TinyTable {
+  height: 5px;
+  width: 5px;
+  background: yellow;
+  margin:1px;
+}
+.Chair {
+  height:3px;
+  width:3px;
+  background:green;
+  margin:1px;
+}
+.Book {
+  height:3px;
+  width:3px;
+  background:purple;
+  margin:1px;
+}
+.RedBook {
+  height:3px;
+  width:3px;
+  background:red;
+  margin:1px;
+}

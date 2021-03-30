@@ -1,0 +1,15 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border: 2px solid black;
+}
+.School {
+  border: 2px solid blue;
+  padding: 5px;
+  margin: 5px;
+}
+.Class {
+  border: 2px solid green;
+  padding: 5px;
+  margin: 5px;
+}

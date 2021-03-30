@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+.Mylist {
+  border:1px solid black;
+  text-align: left;
+  padding:1rem;
+  margin:.5rem;
+  background:greenyellow;
+  transition: all .2s ease-in-out; 
+}
+.Mylist:hover {
+  transform: scale(1.05);
+}
+.Mylist li:hover {
+  color:Green;
+  cursor: pointer;
+}
+.listHeader {
+  text-align: center;
+}
+* {
+  margin:0;
+  padding:0;
+}
+.App {
+  background:green;
+  height:100vh;
+  padding:0.5rem;
+}
